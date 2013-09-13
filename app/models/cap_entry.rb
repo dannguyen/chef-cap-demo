@@ -1,6 +1,6 @@
 class CapEntry < ActiveRecord::Base
 
-  SINGLETON_MSG = "I am the singleton capistrano run message!"
+  SINGLETON_MSG = "I are the singleton capistrano run message!"
 
   def self.recent_first
     order('created_at desc')
