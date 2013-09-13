@@ -14,7 +14,7 @@ set :default_environment, {
 set :application, 'chef_cap'
 
 set :scm, :git
-set :repository,  'git@github.com:smartlogic/chef-cap-demo.git'
+set :repository,  'git@github.com:dannguyen/chef-cap-demo.git'
 set :branch, :master
 set :deploy_via, :remote_cache
 
